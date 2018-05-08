@@ -26,6 +26,7 @@ h1 {
     padding: 15px;
     width: 340px;
     float: left;
+    height: 71px;
 }
 
 h2 {
@@ -50,7 +51,11 @@ li {
 }
 
 body {
-    background-image: url(../images/background.png)
+    background-image: url(../images/background.png);
+    padding-bottom: 76px;
+    padding-top: 76px;
+    margin: 0px;
+    height: 100%;
 }
 
 .header {
@@ -59,21 +64,24 @@ body {
     border-bottom: 5px solid #ccc;
     height: 76px;
     padding-left: 300px;
+    top: 0px;
+    position: absolute;
 }
 
 .footer {
     width: 100%; 
     background-color: #666666;
-    border-top: 5px solid #4aaaa5;
+    border-top: 6px solid #4aaaa5;
     height: 76px;
     position: fixed;
     bottom: 0px;
     left: 0px;
     text-align: center;
+    overflow: auto;
 }
 
 a {
-    color:#ccc;
+    color:#777777;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
 }
@@ -90,4 +98,17 @@ hr {
     margin-left: auto;
     margin-right: auto;
     display: inline;
+}
+
+.text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    color: #777777;
+    line-height: 1.6;
+}
+
+input {
+    width: 80%;
+    margin: 8px;
+    box-sizing: border-box;
 }
